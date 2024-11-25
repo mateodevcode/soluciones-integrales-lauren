@@ -4,7 +4,7 @@ import React from 'react'
 
 const Testimonios = () => {
   return (
-    <div className='flex flex-col justify-start items-center h-[200px] w-full mb-20 mt-20'>
+    <div className='flex flex-col justify-start items-center h-[200px] w-full mb-20 mt-20' id='testimonios'>
         <h2 className='font-semibold text-3xl'>Lo que dicen nuestros clientes</h2>
         <div className='flex flex-row justify-center items-center mt-10 w-full pb-10'>
             {testimonios.map((testimonio, index) => (
