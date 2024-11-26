@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Principal from "@/components/Principal";
 import Testimonios from "@/components/Testimonios";
 
-export default function Home() {
+function Home() {
   return (
     <div className="bg-[#F3F4F6] h-screen">
       <Navbar />
@@ -19,3 +19,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
