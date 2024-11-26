@@ -4,7 +4,7 @@ export const enlacesNav = [
         url: '#'
     },
     {
-        nombre: 'Características',
+        nombre: 'Caracteristicas',
         url: '#'
     },
     {

@@ -15,10 +15,10 @@ const Navbar = () => {
 
   return (
     <div className='flex flex-row justify-around items-center text-black bg-white h-16'>
-        <div className='flex flex-row justify-start items-center w-[480px]'>
+        <Link href={"/"} className='flex flex-row justify-start items-center w-[480px]'>
         <Image src='https://i.postimg.cc/d3kVVdST/logo-soluciones-integrales-lauren.png' width={40} height={40} alt='logo' className='lg:mx-4 sm:mx-6' />
             <h2 className='font-extrabold lg:text-2xl lg:flex sm:hidden'>Soluciones Integrales Lauren</h2>
-        </div>
+        </Link>
         <div className='lg:flex sm:hidden'>
             <ul className='flex flex-row justify-center items-center'>
                 {enlacesNav.map((enlace, index) => (

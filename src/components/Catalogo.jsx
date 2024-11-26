@@ -5,7 +5,7 @@ import React from "react";
 
 const Catalogo = () => {
   return (
-    <div className="flex flex-col justify-start items-center lg:h-[550px] sm:h-[1400px] w-full bg-[#F3F4F6] lg:pt-20 sm:pt-10">
+    <div className="flex flex-col justify-start items-center lg:h-[550px] sm:h-[1400px] w-full bg-[#F3F4F6] lg:pt-20 sm:pt-10" id="productos">
       <h2 className="font-semibold text-3xl">Nuestros Productos</h2>
       <div className="flex lg:flex-row sm:flex-col justify-center items-center mt-10 w-full pb-10">
         {productos.map((producto, index) => (
