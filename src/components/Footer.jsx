@@ -20,10 +20,10 @@ const Footer = () => {
             Transformando espacios con calidad e innovación desde 1990.
           </p>
           <div className="flex flex-row justify-start items-center my-2">
-              <Link className="flex flex-row justify-center items-center">
+              <div className="flex flex-row justify-center items-center">
                 <FaMapMarkerAlt className="mr-2 text-2xl text-gray-300" />{" "}
                 <p>Calle 45 # 7-116, Barranquilla, Colombia</p>
-              </Link>
+              </div>
             </div>
           <div style={{ width: "100%", height: "100%", overflow: "hidden" }}>
             <iframe
