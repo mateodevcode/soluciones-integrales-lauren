@@ -1,5 +1,5 @@
 import { redesSociales } from "@/data/redesSociales";
-import { Link } from "@nextui-org/react";
+import Link from "next/link";
 import {
   FaFacebook,
   FaInstagram,
