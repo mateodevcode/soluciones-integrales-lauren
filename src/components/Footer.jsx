@@ -11,8 +11,8 @@ import {
 const Footer = () => {
   return (
     <div className="bg-gray-800">
-      <div className="flex flex-row justify-around items-start">
-        <div className="text-gray-400 my-10 w-6/12 px-10">
+      <div className="flex lg:flex-row sm:flex-col justify-around lg:items-start sm:items-center">
+        <div className="text-gray-400 lg:my-10 sm:my-5 lg:w-6/12 sm:w-11/12 lg:px-10 sm:px-0">
           <h3 className="font-semibold text-xl text-white">
             Soluciones Integrales Lauren
           </h3>
@@ -37,9 +37,9 @@ const Footer = () => {
             ></iframe>
           </div>
         </div>
-        <div className="text-gray-400 my-10 w-6/12 flex flex-col justify-center items-center h-[250px]">
+        <div className="text-gray-400 my-10 w-6/12 flex flex-col justify-center items-center lg:h-[250px] sm:h-[180px]">
           <h3 className="font-semibold text-xl text-white my-5">Contáctanos</h3>
-          <div className="flex flex-row justify-around items-center w-full">
+          <div className="flex lg:flex-row sm:flex-col justify-around items-center w-full">
             <div className="flex flex-row justify-start items-center my-2">
               <Link href={redesSociales.facebook} target="_blank">
                 <FaFacebook className="mx-2 text-2xl text-blue-600" />
